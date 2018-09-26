@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ejemplo etiqueta formulario</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<h1>Complete el Formulario</h1>
+<form action="" method="" accept-charset="utf-8">
+
+<p>
+	<label for="Nombre">Nombre</label>
+	<input type="text" name="" id="Nombre"	/>  
+	<!-- EL ID SIEMPRE VA RELACIONADO CON EL NOMBRE -->
+</p>
+
+<div>
+	<input type="text" name="" placeholder="escriba su mail"/>
+</div>
+
+
+<p>
+	<label for="pass">Contraseña</label>
+	<input type="password" name="" id="pass"	/>  
+	<!-- EL ID SIEMPRE VA RELACIONADO CON EL NOMBRE -->
+</p>
+
+<p>
+	<label for="">Sexo</label>
+	<ul>
+		<li>
+			<input type="radio" name="sexo" value="mujer">
+			<label for="">Mujer</label>	
+		</li>
+			<li>
+			<input type="radio" name="sexo" value="hombre">
+			<label for="">Hombre</label>	
+		</li>
+	</ul>
+
+</p>
+
+<p>
+<label for="Hobbies">Hobbies</label>
+<ul>
+	<li>
+		<input type="checkbox" name="hobbies[]" value="Bailar">  <!-- los corchetes significan que pueden recibir 1 o mas elementos -->
+		<label for="">Bailar</label>
+	</li>
+	<li>
+		<input type="checkbox" name="hobbies[]" value="Correr">
+		<label for="">Correr</label>
+	</li>
+	<li>
+		<input type="checkbox" name="hobbies[]" value="Nadar">
+		<label for="">Nadar</label>
+	</li>
+	<li>
+		<input type="checkbox" name="hobbies[]" value="Cantar">
+		<label for="">Cantar</label>
+	</li>
+</ul>
+</p>
+
+<p>
+	<label for="">Titulo</label>
+	<select name="">
+		<option value="Primario">Primario</option>
+		<option value="Secundario">Secundario</option>
+		<option value="Terciario">Terciario</option>
+		<option value="Universitario">Universitaro</option>
+	</select>
+
+</p>
+
+<p>
+	<label for="">Comentarios</label>
+	<textarea name="" rows="10"></textarea>
+</p>
+
+<p>
+	<input type="submit" value="Enviar" name="Enviar">
+</p>
+
+</form>
+
+</body>
+</html>

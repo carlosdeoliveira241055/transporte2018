@@ -1,0 +1,393 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+
+}
+
+.derecha {
+	float:right;
+}
+.izquierda {
+	float:left;
+}
+
+.contenedor {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.logo {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px;
+
+}
+.logo img {
+	
+}
+
+.logo h1 {
+	display: inline-block;
+	position: relative;
+	bottom: 0.8em;
+	margin-left: 30px;
+	color: white;
+	font-size:2.5em;
+	font-style: italic;
+	font-weight: 50;
+}
+
+header {
+	width: 100%;
+	background-color: #336699;
+
+}
+
+.navegador {
+	background-color: #6699ff;
+}
+
+nav 
+{
+
+width: 80%;
+margin-bottom: 2em;
+background-color: #6699ff;
+margin: 0 auto;
+
+}
+
+nav ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display:inline-block;
+	width: 20%;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	paddgin:0.2em 0.4em;
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo {
+	background-color: #4c76a5
+}
+
+
+
+footer	{
+	background-color: #ccc;
+	clear: both;
+	color: #333;
+	font-size: 0.7em;
+	font-style: italic;
+	text-align: center;
+	padding: 3em 0;
+	margin-top: 2em;
+}
+
+
+h2 {
+
+color: #6699ff;
+font-weight: 400;
+margin: 0 0 1em;
+
+}
+.left {
+	float: left;
+}
+.right {
+	float:right;
+}
+
+h5 {
+color: #6699ff;
+
+}
+
+h6 {
+color: #6699ff;
+font-style: italic;
+}
+
+h3  {
+
+color: #6699ff;
+font-style: italic;
+font-weight: 400;
+
+}
+
+ /*inicio de pagina de home*/
+
+section img {
+	margin-top: 1.5em;
+	padding-left: 10%;
+	margin-bottom:1.5em;
+	clear: both;
+}
+
+.columnas {
+	width: 80%;
+	margin: 0 auto;
+}
+article	{
+	width: 70%;
+	padding-right: 2em;
+}
+article, .testimonio
+{
+	box-sizing: border-box;
+}
+
+article p {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.testimonio	 {
+	
+	width: 30%;
+	margin-bottom: 20px;
+}
+.cajatestimonio	{
+	background-color: lightgray;
+	text-align: left;
+	padding: 10px;
+	font-size: 2em;
+	line-height: 1em;
+}
+.cajatestimonio p {
+	font-size: 0.5em;
+	text-align: center;
+	display: block;
+}
+
+.testimonio h3 {
+	padding: 10px;
+	margin: 0;
+	color: black;
+	font-style: italic;
+	font-size: 1.4em;
+	line-height: 1.1em;
+	display: block;
+}
+/*fin de pagina de home de pagina de home*/
+
+
+/*inicio de pagina de home de pagina de nosotros*/
+
+.historia p {
+
+font-size: 0.8em;
+
+}
+
+
+
+.persona
+
+
+{
+	width: 18%;
+	float: left;
+	margin-left: 2.25%;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.persona h5, .persona h6 {
+
+	text-align: center;
+	font-weight: normal;
+	margin:0;
+}
+
+.persona figure {
+	margin: 0;
+}
+
+.persona img {
+	border-radius: 50%;
+	border: 1px solid #ddd;		
+	margin: 1em;
+}
+
+
+.persona h5 {
+	font-size: 0.9em;
+}
+
+.persona h6 {
+font-size: 0.8em;
+margin-bottom: 1em;
+font-style: italic;
+}
+
+.persona p {
+	text-align: left;
+	padding: 1em;
+	line-height: 2em;
+}
+
+.persona:first-child {
+	margin-left: 0;
+}
+/*fin de pagina de nosotros*/
+
+/*inicio de pagina de servicios*/
+
+.servicio .info {
+	width: 75%;
+}
+.servicio .info h3 {
+border-bottom: 1px solid #6699ff;
+font-size: 1.2em;
+margin: 0 0 1em;
+padding-bottom: 0.5em;
+
+}
+
+.servicio .info p {
+font-size: 0.8em;
+line-height: 1.2em;
+}
+
+.servicio {
+
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 15px;
+	overflow: hidden;
+	display:block;
+}
+
+figure {
+
+	margin: 0;
+}
+
+.servicio figure img {
+	margin: 0;
+	border-radius: 20px;
+	display: inline-block;
+
+}
+
+.servicio:nth-child(odd) figure {
+	float:left;
+	margin: 0 1em 0 0;
+}
+.servicio:nth-child(odd) .info {
+	float:right;
+}
+.servicio:nth-child(even) figure {
+	float:right;
+	margin: 0 0 0 1em;
+}
+.servicio:nth-child(even) .info {
+	float:left;
+}
+/*fin pagina de servicios*/
+
+/*inicio de pagina de Galeria*/
+
+.galeria .foto {
+
+	float: left;
+	width: 18%;
+	margin:1em 0 1em 2.5%;
+	border:1px solid #ddd;
+	padding: 0.3em;
+	box-sizing: border-box;
+}
+
+.galeria .foto img{
+	display: block;
+	width: 100%
+}
+
+.galeria .foto:nth-child(5n+1){
+	margin-left:0;
+	border-color:
+}
+
+/*inicio de pagina de Galeria*/
+
+/*inicio de pagina de contacto*/
+.columna
+{
+	width: 50%;
+	padding: 0.625em;
+	box-sizing: border-box;
+}
+
+.columna.izquierda {
+
+border-right: 1px solid #ddd;
+}
+
+.columna.derecha p {
+	font-size: 0.8em;
+}
+
+.columna.derecha ul li {
+	font-size: 0.8em;
+}
+
+.formulario label {
+	vertical-aling: top;
+	width: 16%;
+	display: inline-block;
+
+}
+
+.formulario input,
+.formulario textarea {
+	background: #ddd;
+	border-radius: 5px;
+	border: 1px solid #999;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 90%
+}
+
+.formulario textarea {
+	height: 10em;
+	resize: none;
+}
+
+.formulario input[type="submit"]
+{
+	background:#6699ff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	color: white;
+	font-size: 1em;
+	padding: 0.4em 2em;
+	text-align: center;
+	width: auto;
+}
+
+.formulario .centro {
+	text-align: center;
+}
+/*fin de pagina de contacto*/
